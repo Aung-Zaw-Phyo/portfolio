@@ -7,9 +7,9 @@ import { FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
 const About = () => {
     return (
         <div className="container py-12">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 h-full w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 h-full w-full">
                 <div className="p-4 flex justify-center items-center w-full">
-                    <img className="rounded-2xl w-[280px] sm:w-[90%]" src={me} alt="" />
+                    <img className="rounded-2xl w-full sm:w-[80%] lg:w-[90%]" src={me} alt="" />
                 </div>
                 <div className="flex flex-col justify-center w-full ">
                     <h1 className="title mb-2">About Me</h1>
