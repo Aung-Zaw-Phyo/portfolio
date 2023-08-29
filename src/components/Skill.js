@@ -47,7 +47,7 @@ const Skill = () => {
                             <div className="flex items-center mb-3 hover:text-[yellow] cursor-pointer duration-300">
                                 <FaLaravel size={25} className="mr-5"/> <span>Laravel</span>
                             </div>
-                            <div className="flex items-center mb-3 hover:text-[yellow] cursor-pointer duration-300 text-[#ffffff72]">
+                            <div className="flex items-center mb-3 hover:text-[yellow] cursor-pointer duration-300">
                                 <BiLogoNodejs size={25} className="mr-5"/> <span>Nodejs | Express</span>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ const Skill = () => {
                             <div className="flex items-center mb-3 hover:text-[yellow] cursor-pointer duration-300">
                                 <SiMysql size={25} className="mr-5"/> <span>MySql</span>
                             </div>
-                            <div className="flex items-center mb-3 hover:text-[yellow] cursor-pointer duration-300 text-[#ffffff72]">
+                            <div className="flex items-center mb-3 hover:text-[yellow] cursor-pointer duration-300">
                                 <BiLogoMongodb size={25} className="mr-5"/> <span>Mongodb</span>
                             </div>
                         </div>
