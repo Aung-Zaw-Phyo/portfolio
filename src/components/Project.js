@@ -1,12 +1,15 @@
 import React from "react";
 import {FaLaptopCode} from 'react-icons/fa'
-import {BsGithub} from 'react-icons/bs'
+import {BsFillLaptopFill, BsGithub} from 'react-icons/bs'
 import ninja_hr from './../images/projects/ninja_hr.png'
 import ninja_hr_bg from './../images/projects/ninja_hr_bg.png'
 import magic_pay from './../images/projects/magic_pay.png'
 import magic_pay_bg1 from './../images/projects/magic_pay_bg.jpeg'
 import chat from './../images/projects/chat.png'
 import chat_bg from './../images/projects/chat_bg.png'
+import movie_bg from './../images/projects/movie_bg.jpeg'
+import movie from './../images/projects/movie.png'
+import export_img from './../images/projects/export.png'
 
 const Project = () => {
     return (
@@ -104,6 +107,69 @@ const Project = () => {
                         </a>
                     </div>
                 </div>
+
+                <div className="p-4">
+                    <div className="max-h-[350px] relative overflow-hidden rounded-lg">
+                    <div className="p-2 h-auto w-auto sm:h-[600px] sm:w-[360px] -rotate-[55deg] -translate-y-28 mx-auto">
+                            <img className="h-full w-full" src={movie_bg} alt="" />
+                        </div>
+                        <div className="absolute top-0 bottom-0 right-0 left-0 h-full w-full flex items-end bg-[rgba(37,39,52,.95)]">
+                            <img className="w-[85%] sm:w-[75%] rounded-t-lg mx-auto" src={movie} alt="" />
+                        </div>
+                    </div>
+                    <div className="p-3">
+                        <h1 className="mb-2 text-[18px]">Movie App</h1>
+                        <div className="flex items-start mb-3">
+                            <FaLaptopCode className="mr-3" size={20}/><span className="text-[15px]"> Reactjs, TailwindCss and Node.js scraping api </span>
+                        </div>
+                        <div>
+                            <a className="inline-block mr-4" href='https://github.com/Aung-Zaw-Phyo/movie_app_client' target="_blank" rel="noopener noreferrer">
+                                <button className="flex items-center">
+                                    <BsGithub className="mr-2"/>
+                                    <span className="text-[16px]">Movie App</span>
+                                </button>
+                            </a>
+                            <a className="inline-block" href='https://movie-five-eta.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <button className="flex items-center">
+                                    <BsFillLaptopFill className="mr-2"/>
+                                    <span className="text-[16px]">Movie App (Demo)</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="p-4">
+                    <div className="max-h-[350px] relative overflow-hidden rounded-lg">
+                    <div className="p-2 h-auto w-auto sm:h-[600px] sm:w-[360px] -rotate-[55deg] -translate-y-28 mx-auto">
+                            {/* <img className="h-full w-full" src={movie_bg} alt="" /> */}
+                        </div>
+                        <div className="absolute top-0 bottom-0 right-0 left-0 h-full w-full flex items-end bg-[rgba(37,39,52,.95)]">
+                            <img className="w-[85%] sm:w-[75%] rounded-t-lg mx-auto" src={export_img} alt="" />
+                        </div>
+                    </div>
+                    <div className="p-3">
+                        <h1 className="mb-2 text-[18px]">Export | Print or Export PDF</h1>
+                        <div className="flex items-start mb-3">
+                            <FaLaptopCode className="mr-3" size={20}/><span className="text-[15px]"> Reactjs </span>
+                        </div>
+                        <div>
+                            <a className="inline-block mr-4" href='https://github.com/Aung-Zaw-Phyo/export' target="_blank" rel="noopener noreferrer">
+                                <button className="flex items-center">
+                                    <BsGithub className="mr-2"/>
+                                    <span className="text-[16px]">Export</span>
+                                </button>
+                            </a>
+                            <a className="inline-block" href='https://export-three.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <button className="flex items-center">
+                                    <BsFillLaptopFill className="mr-2"/>
+                                    <span className="text-[16px]">Export (Demo)</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     );
